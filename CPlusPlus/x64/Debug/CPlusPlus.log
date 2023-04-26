@@ -1,0 +1,10 @@
+﻿  TestClassCallers.cpp
+C:\Users\micha\Desktop\DwaWrapery\CPlusPlus\Layer.h(22,1): warning C4275: non dll-interface class 'Core::Entity' used as base for dll-interface class 'Layer'
+C:\Users\micha\Desktop\DwaWrapery\Core\Entity.h(6,11): message : see declaration of 'Core::Entity'
+C:\Users\micha\Desktop\DwaWrapery\CPlusPlus\Layer.h(21,31): message : see declaration of 'Layer'
+C:\Users\micha\Desktop\DwaWrapery\CPlusPlus\TestClassCallers.cpp(28): warning C4715: 'CallAdd': not all control paths return a value
+     Creating library C:\Users\micha\Desktop\DwaWrapery\x64\Debug\CPlusPlus.lib and object C:\Users\micha\Desktop\DwaWrapery\x64\Debug\CPlusPlus.exp
+TestClassCallers.obj : error LNK2019: unresolved external symbol "public: __cdecl Core::Entity::Entity(void)" (??0Entity@Core@@QEAA@XZ) referenced in function "public: __cdecl Layer::Layer(void)" (??0Layer@@QEAA@XZ)
+TestClassCallers.obj : error LNK2019: unresolved external symbol "public: virtual __cdecl Core::Entity::~Entity(void)" (??1Entity@Core@@UEAA@XZ) referenced in function "public: virtual __cdecl Layer::~Layer(void)" (??1Layer@@UEAA@XZ)
+TestClassCallers.obj : error LNK2019: unresolved external symbol "public: float __cdecl Core::Entity::add(float,float)" (?add@Entity@Core@@QEAAMMM@Z) referenced in function CallAdd
+C:\Users\micha\Desktop\DwaWrapery\x64\Debug\CPlusPlus.dll : fatal error LNK1120: 3 unresolved externals
